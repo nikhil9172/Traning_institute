@@ -1,0 +1,16 @@
+.abouthead{
+display: flex;
+}
+
+.aboutmainhead{
+    margin-right: 8px;
+}
+
+@media (min-width: 768px) {
+    .abouthead{
+        display: block;
+    }
+    .aboutmainhead{
+        margin-right: 0px;
+    }
+}

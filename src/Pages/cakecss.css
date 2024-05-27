@@ -1,0 +1,43 @@
+/* styles.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  h2 {
+    color: #666;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  .testimonial {
+    border-left: 3px solid #007bff;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p {
+    font-style: italic;
+  }
+  
+  .testimonial p.author {
+    font-weight: bold;
+  }
+  

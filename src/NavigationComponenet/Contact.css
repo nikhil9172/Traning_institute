@@ -1,0 +1,41 @@
+.Aitemform {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+   margin-top: 20px;
+}
+
+.Ain {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.error {
+    color: red;
+}
+
+button.Ain {
+    background-color: #ffa1de;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button.Ain:hover {
+    opacity: 0.8;
+    background-color: #f36fc4;
+
+}
+
+@media screen and (max-width: 600px) {
+    .Aitemform {
+        max-width: 90%;
+    }
+}

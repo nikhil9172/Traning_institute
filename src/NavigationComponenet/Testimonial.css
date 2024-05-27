@@ -1,0 +1,139 @@
+#portfolio {
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+   
+    padding: 5px;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+
+
+.card-content {
+    padding: 20px;
+    text-align:-webkit-center;
+    background-color: antiquewhite; 
+    padding: 20px;
+    margin: 10px; 
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .name,
+  .position {
+     color: #f87f7f;
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    width: 350px;
+    height: 351px;
+}
+
+.work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow:5px  5px 10px;
+}
+
+.containerblog{
+    padding: 60px;
+}
+
+.work img {
+    width: 65%;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: 20px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+    color: white;
+}
+
+.layer h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.layer p {
+   color: white;
+}
+
+.layer a {
+    margin-top: 20px;
+    color: #ff004f;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.work:hover img {
+    transform: scale(1.1);
+}
+
+.work:hover .layer {
+    height: 100%;
+}
+.abouthead{
+    display: flex;
+}
+.aboutmainhead{
+    margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+    #ortfolio{
+ margin-left: 0px;
+ padding: 0px;
+    }
+    .containerblog{
+padding: 0px;
+    }
+    .abouthead{
+        display: block;
+    }
+    .aboutmainhead{
+        margin-right: 0px;
+    }
+    .work-list{
+        margin-top: 15px;
+    }
+}
